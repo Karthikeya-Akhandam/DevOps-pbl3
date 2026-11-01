@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthcare System - Secure Patient Portal</title>
+    <!-- Tailwind CSS for a modern, professional look -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50 font-sans text-slate-800">
+
+    <!-- Header / Navbar -->
+    <header class="bg-blue-600 text-white shadow-md">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-3">
+                <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path>
+                </svg>
+                <span class="text-xl font-bold tracking-wide">MediSecure Portal</span>
+            </div>
+            <span class="text-xs bg-blue-700 px-3 py-1 rounded-full uppercase tracking-wider font-semibold">DevSecOps Deployment v3</span>
+        </div>
+    </header>
+
+    <!-- Main Content Container -->
+    <main class="max-w-4xl mx-auto px-6 py-12">
+        <div class="bg-white rounded-2xl shadow-xl p-8 border border-slate-100">
+            <div class="text-center mb-8">
+                <h1 class="text-3xl font-extrabold text-slate-900 mb-2">Secure Patient Portal</h1>
+                <p class="text-slate-500">Welcome to the automated CI/CD healthcare management interface.</p>
+            </div>
+
+            <!-- Status Banner -->
+            <div class="bg-emerald-50 border-l-4 border-emerald-500 p-4 rounded-r-lg mb-8">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0">
+                        <svg class="h-5 w-5 text-emerald-500" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                        </svg>
+                    </div>
+                    <div class="ml-3">
+                        <p class="text-sm font-medium text-emerald-800">
+                            Pipeline Status: <span class="font-bold">Secured, Built & Deployed via Kubernetes (K3s)</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quick Action Cards -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-slate-50 p-6 rounded-xl border border-slate-200 hover:border-blue-400 transition-all">
+                    <h3 class="font-bold text-lg text-slate-800 mb-2">Patient Records</h3>
+                    <p class="text-sm text-slate-600 mb-4">Access encrypted electronic health records and clinical history securely.</p>
+                    <button class="bg-blue-600 text-white text-sm font-semibold px-4 py-2 rounded-lg hover:bg-blue-700 transition">View Records</button>
+                </div>
+
+                <div class="bg-slate-50 p-6 rounded-xl border border-slate-200 hover:border-blue-400 transition-all">
+                    <h3 class="font-bold text-lg text-slate-800 mb-2">Security Compliance</h3>
+                    <p class="text-sm text-slate-600 mb-4">Scanned via Trivy for vulnerabilities and containerized under strict policies.</p>
+                    <span class="inline-block bg-blue-100 text-blue-800 text-xs font-bold px-3 py-1 rounded-full">VLE 7, 8 & 9 Passed</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center py-6 text-sm text-slate-400">
+        &copy; 2026 MediSecure Systems. Automated via Jenkins & Kubernetes Blue-Green Deployment.
+    </footer>
+
+</body>
+</html>
